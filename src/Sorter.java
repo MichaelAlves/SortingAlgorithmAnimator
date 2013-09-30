@@ -8,7 +8,7 @@ public abstract class Sorter {
 	protected int[] values;
 	private static final int THREAD_DELAY = 100;	//100 millisecond delay
 	
-	public abstract void draw(Graphics2D g2);				  //draws current state of the algorithm
+	public abstract void draw(Graphics2D g2);		  //draws current state of the algorithm
 	public abstract void sort() throws InterruptedException;  //wrapper function for each sorting algorithm
 	public void pause(int steps) throws InterruptedException{ //pause at each important step in algorithm to view grpahical output
 		component.repaint();
