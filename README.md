@@ -1,4 +1,4 @@
-Sorting Algorithm Animator (in progress)
+Sorting Algorithm Animator
 ========================
 
 Goals to be fulfilled:
